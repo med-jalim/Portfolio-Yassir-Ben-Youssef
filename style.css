@@ -577,9 +577,11 @@ section.show {
     }
 
     .project-grid {
-        grid-template-columns: 1fr;
+        column-count: 2;
+        display: block;
+        column-gap: 1vh;
     }
     .project-image img {
-        height: 150px;
+        height: 20%;
     }
 }
